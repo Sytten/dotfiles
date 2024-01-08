@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# Easier navigation
+alias ..="cd .."
+alias ...="cd ../.."
+
+# Shortcuts
+alias tf="terraform"
+alias gg="lazygit"
+alias ll="ls -lha"
+
+# Folders
+alias p="cd ~/Projects"
+
+# IP addresses
+alias ip="curl http://canhazip.com"
+alias localips="ifconfig | grep 'inet ' | cut -d ' ' -f2 | grep -v 127.0.0.1"
+
+# Pipe my public key to my clipboard.
+alias pubkey="more ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to pasteboard.'"
+
+# File size
+alias fs="stat -f \"%z bytes\""

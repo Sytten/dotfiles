@@ -1,0 +1,7 @@
+
+# Source files
+root=$HOME
+source $root/.exports         # Various exports
+source $root/.aliases         # User-defined aliases
+source $root/.aliases.local   # Extra aliases
+source $root/.secrets.local   # Secrets

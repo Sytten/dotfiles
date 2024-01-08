@@ -1,5 +1,26 @@
+- defaults:
+    link:
+      relink: true
+      create: true
+      force: true
+
 - clean: ['~']
 
 - link:
+    # Bash
+    ~/.aliases: 'bash/aliases'
+    ~/.aliases.local: 'bash/aliases.local'
+    ~/.secrets.local: 'bash/secrets.local'
+    ~/.exports: 'bash/exports'
+    ~/.bash_profile: 'bash/bash_profile'
+    ~/.bashrc: 'bash/bashrc'
 
+    # Git
+    ~/.gitconfig: 'git/gitconfig'
+    ~/.gitignore: 'git/gitignore'
+    
+    # SSH
+    ~/.ssh/config: 'ssh/config'
 
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
