@@ -1,0 +1,120 @@
+{
+  // Editor
+  "workbench.colorTheme": "Default Dark Modern",
+  "window.zoomLevel": 1,
+  "window.commandCenter": false,
+  "explorer.confirmDelete": false,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 13,
+  "editor.letterSpacing": 1.2,
+  "editor.fontLigatures": true,
+  "editor.cursorStyle": "line",
+  "editor.lineNumbers": "on",
+  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+  "editor.wordWrap": "off",
+  "editor.tabSize": 2,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.detectIndentation": false,
+  "editor.renderWhitespace": "all",
+  "editor.suggestSelection": "first",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.tslint": "explicit"
+  },
+
+  // Workbench
+  "workbench.editor.enablePreview": false,
+
+  // Files
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true,
+    "**/.trunk/*out/": true,
+    "**/.trunk/*actions/": true,
+    "**/.trunk/*logs/": true,
+    "**/.trunk/*plugins/": true
+  },
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "files.watcherExclude": {
+    "**/.trunk/*out/": true,
+    "**/.trunk/*actions/": true,
+    "**/.trunk/*logs/": true,
+    "**/.trunk/*plugins/": true
+  },
+
+  // Languages
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[terraform]": {
+    "editor.defaultFormatter": "hashicorp.terraform"
+  },
+  "[sql]": {
+    "editor.defaultFormatter": "bradymholt.pgformatter"
+  },
+  "yaml.format.singleQuote": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  // Extensions
+  "extensions.ignoreRecommendations": true,
+  "redhat.telemetry.enabled": false,
+  "jest.runAllTestsFirst": false,
+  "vim.startofline": false,
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<leader>", "a"],
+      "commands": ["workbench.view.explorer"]
+    }
+  ],
+  "vim.leader": ",",
+  "rust-analyzer.inlayHints.enable": false,
+  "gitlens.views.fileHistory.avatars": false,
+  "gitlens.advanced.fileHistoryFollowsRenames": true,
+  "gitlens.plusFeatures.enabled": false,
+  "rust-analyzer.diagnostics.experimental.enable": false,
+  "githubPullRequests.pullBranch": "never",
+  "rust-analyzer.check.overrideCommand": [
+    "cargo",
+    "clippy",
+    "--workspace",
+    "--message-format=json",
+    "--all-targets"
+  ],
+  "vue.features.codeActions.savingTimeLimit": 10000,
+  "vue.codeActions.savingTimeLimit": 5000,
+  "trunk.trunkGrayOutNonBlockingIssues": false,
+  "git.openRepositoryInParentFolders": "never",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+}

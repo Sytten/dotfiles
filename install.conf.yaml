@@ -18,9 +18,12 @@
     # Git
     ~/.gitconfig: 'git/gitconfig'
     ~/.gitignore: 'git/gitignore'
-    
+
     # SSH
     ~/.ssh/config: 'ssh/config'
 
+    # VScode
+    ~/Library/Application Support/Code/User/settings.json: 'vscode/settings.json'
+
 - shell:
-  - [git submodule update --init --recursive, Installing submodules]
+    - [git submodule update --init --recursive, Installing submodules]
