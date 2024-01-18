@@ -8,6 +8,7 @@ alias ...="cd ../.."
 alias tf="terraform"
 alias gg="lazygit"
 alias ll="ls -lha"
+alias ecs="e1s"
 
 # Folders
 alias p="cd ~/Projects"
