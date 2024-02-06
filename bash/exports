@@ -16,3 +16,6 @@ export HOMEBREW_NO_AUTO_UPDATE=1
 
 # Mise
 export PATH="$HOME/.local/share/mise/shims:$PATH"
+
+# History
+export HISTCONTROL=ignorespace
