@@ -116,5 +116,6 @@
   "vue.codeActions.savingTimeLimit": 5000,
   "trunk.trunkGrayOutNonBlockingIssues": false,
   "git.openRepositoryInParentFolders": "never",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.startupEditor": "none"
 }
