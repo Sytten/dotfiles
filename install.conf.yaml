@@ -19,6 +19,9 @@
     ~/.gitconfig: 'git/gitconfig'
     ~/.gitignore: 'git/gitignore'
 
+    # Terraform
+    ~/.terraformrc: 'terraform/terraformrc'
+
     # SSH
     ~/.ssh/config: 'ssh/config'
 
