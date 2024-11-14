@@ -19,7 +19,7 @@
   "editor.renderWhitespace": "all",
   "editor.suggestSelection": "first",
   "editor.codeActionsOnSave": {
-    "source.fixAll.tslint": "explicit"
+    "source.fixAll.eslint": "explicit"
   },
 
   // Workbench
@@ -83,6 +83,9 @@
   "[sql]": {
     "editor.defaultFormatter": "bradymholt.pgformatter"
   },
+  "[rust]": {
+    "editor.tabSize": 4
+  },
   "yaml.format.singleQuote": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "javascript.updateImportsOnFileMove.enabled": "always",
@@ -96,6 +99,14 @@
     {
       "before": ["<leader>", "a"],
       "commands": ["workbench.view.explorer"]
+    },
+    {
+      "before": ["J"],
+      "commands": ["editor.action.moveLinesDownAction"]
+    },
+    {
+      "before": ["K"],
+      "commands": ["editor.action.moveLinesUpAction"]
     }
   ],
   "vim.leader": ",",
@@ -117,5 +128,24 @@
   "trunk.trunkGrayOutNonBlockingIssues": false,
   "git.openRepositoryInParentFolders": "never",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "workbench.startupEditor": "none"
+  "workbench.startupEditor": "none",
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "rust": true,
+    "python": true,
+    "javascript": true,
+    "pest": true,
+    "sql": true,
+    "terraform": true,
+    "typescript": true,
+    "lezer": true,
+    "graphql": true,
+    "go": true,
+    "vue": true
+  },
+  "prettier.trailingComma": "all",
+  "github.copilot.editor.enableAutoCompletions": true
 }
